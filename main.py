@@ -1,3 +1,3 @@
-from numpy import prod
-m = [int(i) for i in input()]
-print(sum(m), len(m))
+x = str(input())
+print('Максимальная цифра равна', max(x))
+print('Минимальная цифра равна', min(x))
